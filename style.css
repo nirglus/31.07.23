@@ -88,3 +88,16 @@
     75%{transform: translate(0,100vh);}
     100%{transform: translate(0,-100vh);}
 }
+.animation-8{
+    height: 100px;
+    width: 100px;
+    background-color: #69f314;
+    box-shadow: 3px 5px 11px 9px #000;
+    animation-name: moveInside;
+    animation-duration: 10s;
+}
+@keyframes moveInside{
+    0%{transform: rotateX(0deg);}
+    50%{transform: rotateX(65deg);}
+    100%{transform: rotateX(0deg);}
+}
