@@ -22,3 +22,15 @@
     75% {background-color: red;}
     100% {background-color: #000;}
 }
+.animation-3{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    animation-name: changeForm;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changeForm{
+    from {border-radius: 0;}
+    to {border-radius: 50%;}
+}
