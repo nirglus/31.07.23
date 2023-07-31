@@ -1,0 +1,11 @@
+.animation-1{
+    height:20vh;
+    width: 30vw;
+    background-color: #000;
+    animation-name: changeColor;
+    animation-duration: 5s;
+}
+@keyframes changeColor{
+    from {background-color: #f00;}
+    to {background-color: #00f;}
+}
