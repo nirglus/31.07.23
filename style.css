@@ -34,3 +34,17 @@
     from {border-radius: 0;}
     to {border-radius: 50%;}
 }
+.animation-4{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: #0f0;
+    animation-name: bigger;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bigger{
+    0% {height: 100px; width:100px;}
+    50% {height:300px; width:300px;}
+    100% {height: 100px; width:100px;}
+}
