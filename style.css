@@ -9,3 +9,16 @@
     from {background-color: #f00;}
     to {background-color: #00f;}
 }
+.animation-2{
+    height: 20vh;
+    width: 30vw;
+    animation-name: changeColor2;
+    animation-duration: 5s;
+}
+@keyframes changeColor2{
+    0% {background-color: #0f0;}
+    25% {background-color: #ffee00;}
+    50% {background-color: pink;}
+    75% {background-color: red;}
+    100% {background-color: #000;}
+}
