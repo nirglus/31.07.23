@@ -114,3 +114,22 @@
     from{transform: translate(0,0)}
     to{transform: translate(0,100vh);}
 }
+.animation-10{
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color:#fff;
+}
+.animation-10-div{
+    display: flex;
+    height:300px;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes glow{
+    0%{text-shadow: 0 0px 6px #fd0000, 0 0 8px #f78c00d2, 0 0 10px rgb(255, 255, 0);}
+    50%{text-shadow: 0 0 12px #0f0, 0 0 14px #00eaff, 0 0 12px #0000ff;}
+    100%{text-shadow: 0 0 10px #9900ff, 0 0 8px #ff00b7,0 0 6px #f00;}
+}
