@@ -157,15 +157,15 @@
     75%{transform: translate(0,200px);}
     100%{transform: translate(0,0px);}
 }
-.animation-13 p{
-    width:40%;
-    overflow: hidden;
-    height: vh;
-    animation-name: type;
-    animation-duration: 5s;
+.animation-13{
+    width:50%;
 }
-@keyframes type{
-    0%{width:0; height:0;}
-    2%{width: 0; height:3vh}
-    25%{width:40%; height:3vh;}
+.anim-13{
+    content: "";
+    animation-name: type;
+    animation-duration: 2s;
+}
+@keyframes type {
+    from{content: "";}
+    to{content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";}
 }
