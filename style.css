@@ -102,17 +102,20 @@
     100%{transform: rotateX(0deg);}
 }
 .animation-9{
-    height: 100px;
-    width: 100px;
+    height: 20vh;
+    width: 9vw;
     border-radius: 50%;
-    background-color: #3f00fc;
+    scale: 1;
+    background-image: url(rolling-football-ball-gif.gif);
+    background-size: 100%;
     animation-name: fallDown;
     animation-duration: 2s;
     animation-timing-function: ease-in;
+
 }
 @keyframes fallDown{
-    from{transform: translate(0,0)}
-    to{transform: translate(0,100vh);}
+    from{transform: translate(0,0); scale: 1;}
+    to{transform: translate(50vw,100vh); scale: 2.5;}
 }
 .animation-10{
     animation-name: glow;
@@ -153,4 +156,16 @@
     50%{transform: translate(200px,200px);}
     75%{transform: translate(0,200px);}
     100%{transform: translate(0,0px);}
+}
+.animation-13 p{
+    width:40%;
+    overflow: hidden;
+    height: vh;
+    animation-name: type;
+    animation-duration: 5s;
+}
+@keyframes type{
+    0%{width:0; height:0;}
+    2%{width: 0; height:3vh}
+    25%{width:40%; height:3vh;}
 }
